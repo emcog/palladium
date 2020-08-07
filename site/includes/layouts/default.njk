@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if meta_title %}{{ meta_title }}{% else %}{{ title }}{% endif %} | {{ site.name }}</title>
     <meta name="description" content="{% if meta_description %}{{ meta_description }}{% else %}{{ excerpt }}{% endif %}">
-    {% if page.fileSlug === 'blog' %}
+    {% if page.fileSlug === 'events' %}
         <meta name="robots" content="noindex,follow" />
     {% else %}
         <meta name="robots" content="index,follow" />

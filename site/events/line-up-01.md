@@ -15,7 +15,7 @@ tags:
         data-item-description="With Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright"
         data-item-image="/images/events/01-zippy-n-ronnie-le-drew.png"
         data-item-name="Line up 01 with date">
-    Add to cart
+    Buy a ticket
 </button>
 
 ## Puppets with Guts

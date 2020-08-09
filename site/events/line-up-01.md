@@ -7,7 +7,16 @@ excerpt: Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wrigh
 tags:
     - event
 ---
-
+## Button here
+<button class="snipcart-add-item inline-block rounded md:ml-2 py-3 px-6 text-white font-bold bg-pink-500 hover:bg-white hover:text-pink-500"
+        data-item-id="Line up 01"
+        data-item-price="10.00"
+        data-item-url="/events/line-up-01"
+        data-item-description="With Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright"
+        data-item-image="/images/events/01-zippy-n-ronnie-le-drew.png"
+        data-item-name="Line up 01 with date">
+    Add to cart
+</button>
 
 ## Puppets with Guts
 Puppets with Guts make big responsive spectacular puppetry and outdoor theatre. Based in Brighton, UK, Puppets with Guts was founded by Artistic Director, Ivan Thorley in 2013, to present big, inspiring puppets that reveal ideas, narratives and stories about contemporary society.
@@ -20,6 +29,7 @@ Ivan has over 15 years experience working internationally with some of the world
 The Puppet Theatre Barge has been putting on a programme of unique and magical shows on a converted Thames barge for over 30 years.
 
 Stan Middleton is a third-generation puppeteer who has been performing professionally since the age of nine. Stan specialises in marionettes and runs The Puppet Theatre Barge, a fifty-seat puppet theatre inside a converted barge based in London. The Puppet Theatre Barge was started by Stan's grandparents who originally trained at the Little Angel Theatre with John and Lyndie Wright. 
+
 Stan is a regular puppetry tutor at Central School of Speech and Drama and The Curious School of Puppetry. Other performance credits include ‘The Oddissy’ Paper Cinema/Battersea Arts Centre, ‘Venus and Adonis’ RSC and Little Angel Theatre, ‘Jabberwocky’ Little Angel Theatre. ‘Angelo’, Little Angel Theatre.
 Find out more about the Puppet Barge at www.puppetbarge.com
 

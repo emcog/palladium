@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "Welsh Arts Council",
+      "src": "/images/sponsors/welshartscouncil.png",
+      "alt": "Welsh Arts Council logo"
+    },
+    {
+      "name": "Curious School of Puppetry",
+      "src": "/images/sponsors/curious.png",
+      "alt": "Curious School of Puppetry logo"
+    },
+    {
+      "label": "Talk to the Hand Puppetry",
+      "src": "images/sponsors/talk-to-the-hand.png",
+      "alt": "Talk to the Hand Puppetry logo"
+    }
+  ]
+}

@@ -21,8 +21,8 @@
     {% endif %}
 
 
-    {# snipcart styles #}
-    {% include "components/snipcart/snipcart-styles.njk" %}
+{#    #}{# snipcart styles #}
+{#    {% include "components/snipcart/snipcart-styles.njk" %}#}
 
     {# include scripts #}
     {% if helpers.environment === "development" %}
@@ -53,6 +53,9 @@
         {# include content #}
         {{ content | safe }}
 
+        {# include sponsors #}
+        {% include "components/sponsors.njk" %}
+
         {# include footer #}
         {% include "components/footer.njk" %}
 
@@ -61,7 +64,7 @@
     {# include mobile nav #}
     {% include "components/mobile-nav.njk" %}
 
-    {# include snipcart #}
-    {% include "components/snipcart/snipcart-cart.njk" %}
+{#    #}{# include snipcart #}
+{#    {% include "components/snipcart/snipcart-cart.njk" %}#}
 </body>
 </html>

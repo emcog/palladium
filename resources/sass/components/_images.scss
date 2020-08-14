@@ -1,0 +1,25 @@
+// logo handling
+header .organisation-logo { height: 90px; }
+
+.step-and-repeat--x {
+    background-image: url(/images/graphics/step-and-repeat__curtain.svg);
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+    height: 80px;
+    z-index: 02;
+}
+
+
+
+.theme__headline--image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+
+    @include respond-to('xs') { top: 155px; }
+    @include respond-to('small') { top: 130px; }
+    @include respond-to('medium') { top: 110px; }
+    @include respond-to('large') { top: 78px; }
+}

@@ -1,5 +1,6 @@
+<h2>Proudly sponsored by</h2>
 <div class="sponsor-grid">
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
-    <div><img src="" alt=""></div>
+    {% for sponsor in sponsors.main %}
+    <div><img src="{{ sponsor.src }}" alt="{{ sponsor.alt }}"></div>
+    {% endfor %}
 </div>

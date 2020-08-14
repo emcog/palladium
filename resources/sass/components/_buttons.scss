@@ -1,2 +1,14 @@
 
 //==========  Buttons ==========//
+
+.btn-cta {
+  padding: 09px 65px 08px 65px;
+  border: $secondary-color 4px solid;
+  border-radius: 999px;
+  font-family: $sans-serif-bold;
+  color: $secondary-color;
+  font-size: 12pt;
+  letter-spacing: 2pt;
+  text-transform: uppercase;
+  background-color: $primary-color ;
+}

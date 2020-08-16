@@ -1,0 +1,40 @@
+{
+  "qna": [
+    {
+      "question": "When do I get my tickets?",
+      "answer": "You will receive an email on the INSERT DAY HERE of the event, INSERT TIME HERE, containing a link to your seats."
+    },
+    {
+      "question": "Where do my tickets come from (email address)?",
+      "answer": "tickets(at)popuppalladium.com"
+    },
+    {
+      "question": "I haven't had my ticket!",
+      "answer": "Please please check your spam or promotions folder, look for emails from tickets(at)popuppalladium.com. If you’re sure you haven’t had it then send us an email, using the <a href = contact/>contact form</a> or tickets(at)popuppalladium.com "
+    },
+    {
+      "question": "Where can I watch the show after it's finished?",
+      "answer": "We’ll keep a recording of the event live for 48 hrs after it finishes. Just use the same link and password you received in your email."
+    },
+    {
+      "question": "Is this family friendly?",
+      "answer": "Audience discretion is advised. This is a gig for adults in the main part, please expect strong language from the start."
+    },
+    {
+      "question": "Can I share my livestream link?",
+      "answer": "Please feel free to share the livestream link but consider making another donation to The Trussell Trust."
+    },
+    {
+      "question": "Can I share my livestream link?",
+      "answer": "Please feel free to share the livestream link but consider making another donation to The Trussell Trust."
+    },
+    {
+      "question": "How do I access my 'front row' ticket?",
+      "answer": "You will receive an email on Saturday evening after 5pm containing a link to a live broadcast using the software Zoom.us. The software is free and available on any tablet, computer or smartphone. Please download in advance of 7pm Saturday so you are ready to go and ensure you have the latest version."
+    },
+    {
+      "question": "What is the difference between making a 'donation' on Crowdfunder and buying a 'Livestream link'?",
+      "answer": "Everyone who makes a donation or purchases a ‘Livestream link’ will receive an email on Saturday after 5pm with details on how to watch the show."
+    }
+  ]
+}

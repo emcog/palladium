@@ -13,6 +13,10 @@
             "url": "/events/"
         },
         {
+            "label": "FAQ's",
+            "url": "/faq/"
+        },
+        {
             "label": "Contact",
             "url": "/contact/"
         }

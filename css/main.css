@@ -590,6 +590,10 @@ video {
   height: auto;
 }
 
+p, span {
+  font-family: "Georgia", serif;
+}
+
 [data-lazy] {
   opacity: 0;
   width: 100%;
@@ -668,6 +672,10 @@ h1, h2, h3 {
   .content p:first-child {
     font-size: 1.875rem;
   }
+}
+
+.font-sans__bold {
+  font-family: "Oswald", sans-serif;
 }
 
 .bg-primary-color {
@@ -1325,6 +1333,103 @@ header .organisation-logo {
   .theme__headline--image {
     top: 78px;
   }
+}
+
+.fancy-border {
+  border: 20px solid;
+  -o-border-image: url("/images/graphics/step-and-repeat__curtain.svg");
+     border-image: url("/images/graphics/step-and-repeat__curtain.svg");
+}
+
+.ticket__bg {
+  box-sizing: border-box;
+  position: relative;
+  width: 836px;
+  height: 434px;
+  border-style: solid;
+  border-width: 46px;
+  -o-border-image: url("/images/graphics/ticket.svg") 46 stretch;
+     border-image: url("/images/graphics/ticket.svg") 46 fill stretch;
+  margin: 0 auto 40px auto;
+}
+
+.ticket__acts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 23px;
+  grid-row-gap: 18px;
+  margin: -46px -46px 0 -46px;
+  padding: 46px 46px 0 46px;
+}
+
+.ticket__act-image {
+  float: left;
+  border-radius: 9999px;
+  margin: 0 12px 0 0;
+  width: 65px;
+  height: 65px;
+}
+
+.ticket__act-title {
+  margin: 0 0 2px 0;
+  text-transform: uppercase;
+  color: #640000;
+}
+
+.ticket__act-summary {
+  color: #640000;
+  overflow: hidden;
+}
+
+.ticket__act--tl {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.ticket__act--tr {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.ticket__act--br {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.ticket__act--bl {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.ticket__booking-info {
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  bottom: -26px;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 0.7fr;
+  width: 100%;
+}
+
+.ticket__time {
+  text-transform: uppercase;
+  grid-column: 1/2;
+  margin: auto;
+}
+
+.ticket__date {
+  text-transform: uppercase;
+  grid-column: -2/-1;
+  margin: auto;
+}
+
+.ticket__cta {
+  grid-column: 2/3;
+  margin: auto;
+}
+
+.tickets {
+  display: grid;
 }
 
 .space-y-0 > :not(template) ~ :not(template){

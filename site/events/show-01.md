@@ -4,19 +4,35 @@ date: 2018-09-30
 featured_image: /images/events/01-zippy-n-ronnie-le-drew.png
 image_caption: Zippy & Ronnie Le Drew
 excerpt: Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright
+ticketing: www.crowdfunder.com
+    time_of_event: 6pm
+    date_of_event: Tue 09 aug
+lineup: [
+        {
+            title: "Zippy and Ronnie Le Drew",
+            image: "/images/events/01-zippy-n-ronnie-le-drew.png",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        },
+        {
+            title: "The Lips",
+            image: "/images/events/01-thelips.jpeg",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        },
+        {
+            title: "Sarah Wright",
+            image: "/images/events/01-sarah-wright.jpeg",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        },        
+        {
+            title: "Puppet Barge",
+            image: "/images/events/01-puppet-barge.jpeg",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        }
+ ]
+
 tags:
     - event
 ---
-## Button here
-<button class="snipcart-add-item inline-block rounded md:ml-2 py-3 px-6 text-white font-bold bg-pink-500 hover:bg-white hover:text-pink-500"
-        data-item-id="Line up 01"
-        data-item-price="10.00"
-        data-item-url="/events/line-up-01"
-        data-item-description="With Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright"
-        data-item-image="/images/events/01-zippy-n-ronnie-le-drew.png"
-        data-item-name="Line up 01 with date">
-    Buy a ticket
-</button>
 
 ## Puppets with Guts
 Puppets with Guts make big responsive spectacular puppetry and outdoor theatre. Based in Brighton, UK, Puppets with Guts was founded by Artistic Director, Ivan Thorley in 2013, to present big, inspiring puppets that reveal ideas, narratives and stories about contemporary society.
@@ -42,7 +58,7 @@ Ronnie Le Drew is one of the UK’s most respected puppeteers, and recipient of 
 ## SARAH WRIGHT
 Sarah is a master Puppeteer and Puppet Director who served as an additional Muppet performer on 1996's Muppet Treasure Island and puppeteered Vogons and other aliens in the 2005 Creature Shop-effects film The Hitchhiker's Guide to the Galaxy. 
 Sarah is a veteran London theatre Puppeteer, founder of the Curious School of Puppetry, and Director of her own company Invisible Thread. Her stage credits include work with the Royal Shakespeare Company on The Tempest and directing Sleeping Beauty, The Adventures of Curious Ganz, and Hansel and Gretel. She puppeteered on the TV series Sooty (as occasional character Scampi) and the film Seed of Chucky (operating all three lead doll characters).
-Sarah will be talking to us about her life growing up the the Little Angel Theatre and prolific career as a Puppeteer, Director, and Headmistress.
+Sarah will be talking to us about her life growing up the Little Angel Theatre and prolific career as a Puppeteer, Director, and Headmistress.
 
 
 

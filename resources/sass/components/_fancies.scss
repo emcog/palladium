@@ -1,3 +1,12 @@
-.curtain {
-
+.fancy-border {
+  border: 20px solid;
+  border-image: url("/images/graphics/step-and-repeat__curtain.svg");
 }
+
+//.ticket {
+//  border-image-source: url("/images/graphics/ticket.svg");
+//  border-image-slice: 170;
+//  height: 434px;
+//  width: 836px;
+//}
+

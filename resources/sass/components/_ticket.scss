@@ -1,0 +1,97 @@
+// 9 slice svg https://aerotwist.com/blog/slicing-svg-9-ways/
+
+.ticket__bg {
+    box-sizing: border-box;
+    position: relative;
+    width: 836px;
+    height: 434px;
+    border-style: solid;
+    border-width: 46px;
+    border-image: url("/images/graphics/ticket.svg") 46 fill stretch;
+    margin: 0 auto 40px auto ;
+}
+
+
+.ticket__acts {
+  //position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 23px;
+  grid-row-gap: 18px;
+  margin: -46px -46px 0 -46px; // 01 hack to make all of top section of ticket a live button
+  padding: 46px 46px 0 46px; // 02 hack to make all of top section of ticket a live button
+}
+
+
+.ticket__act {
+  &-image {
+    float: left;
+    border-radius: 9999px;
+    margin: 0 12px 0 0;
+    width: 65px;
+    height: 65px;
+  }
+
+  &-title {
+    margin: 0 0 2px 0;
+    text-transform: uppercase;
+    color: $primary-color-dark;
+  }
+
+  &-summary {
+    color: $primary-color-dark;
+    overflow: hidden;
+
+  }
+
+  &--tl {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  &--tr {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  &--br {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  &--bl {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+
+
+.ticket__booking-info {
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  bottom: -26px;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 0.7fr;
+  width: 100%;
+}
+
+
+.ticket__time {
+  text-transform: uppercase;
+  grid-column: 1/2;
+  margin: auto;
+}
+
+
+.ticket__date {
+  text-transform: uppercase;
+  grid-column: -2/-1;
+  margin: auto;
+}
+
+
+.ticket__cta {
+  grid-column: 2/3;
+  margin: auto;
+}

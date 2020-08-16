@@ -12,83 +12,132 @@ title: Upcoming events
 
         <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">{{ title }}</h1>
 
-        <div class="posts lg:flex flex-1">
+{#        <div class="posts lg:flex flex-1">#}
+        <div class="flex-col">
 
-            {% for post in collections.events %}
 
-                <article class="article-card mb-8 mx-4 flex-1 bg-white overflow-hidden rounded-lg shadow-lg">
-
-                    {# featured post image & category #}
-                    {% if post.data.featured_image %}
-
-                        <a class="featured-image-link block relative overflow-hidden" href="{{ post.url }}">
-
-                            {# category link #}
-                            <ul class="absolute bottom-0 left-0 flex p-8 z-10">
-
-                                {% for item in post.data.tags %}
-
-                                    {%- if item != "event" -%}
-
-                                        <li class="mr-2">
-
-                                            <span class="inline-block bg-pink-500 px-4 py-2 text-white text-xs font-bold rounded">{{ item | capitalize }}</span>
-
-                                        </li>
-
-                                    {%- endif -%}
-
-                                {% endfor %}
-
-                            </ul>
-
-                            <figure>
-
-                                {# the 'data-lazy' attribute will lazy load your images in #}
-                                {# the js uses the new Intersection Observer API, see ../modules/lazyload #}
-                                {# it's not fully supported in some browsers, so proceed with caution! #}
-                                {# the srcset attribute would be a nice addtion here as well...in a future update maybe :) #}
-                                <img data-lazy="{{ post.data.featured_image }}" class="block" alt="{{ post.data.image_caption }}">
-
-                            </figure>
-
-                        </a>
-
-                    {% endif %}
-
-                    <div class="p-8">
-
-                        <h2 class="text-2xl mb-6"><a class="block text-purple-900 hover:text-pink-500" href="{{ post.url }}">{{ post.data.title }}</a></h2>
-
-                        <div class="text-sm text-gray-600 md:flex mb-4">
-
-                            <p class="author">By {{ site.author.name }}</p>
-
-                            <p class="hidden md:block px-2">—</p>
-
-                            <time datetime="{{ post.date }}">
-                                {{ post.date | dateDisplay }}
-                            </time>
-
+            {% for event in collections.events %}
+            <article class="ticket__bg">
+                <a href="{{ event.url }}">
+                    <div class="ticket__acts">
+                        {% for act in event.data.lineup %}
+                        <div>
+                            <img class="ticket__act-image" src="{{ act.image }}">
+                            <h2 class="ticket__act-title">{{ act.title }}</h2>
+                            <p class="ticket__act-summary">{{ act.summary }}</p>
                         </div>
-
+                        {% endfor %}
                     </div>
-
-{#  Demo snipcart button                  #}
-                    <button class="snipcart-add-item inline-block rounded md:ml-2 py-3 px-6 text-white font-bold bg-pink-500 hover:bg-white hover:text-pink-500"
-                            data-item-id="Line up 01"
-                            data-item-price="10.00"
-                            data-item-url="/events/line-up-01"
-                            data-item-description="With Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright"
-                            data-item-image="/images/events/01-zippy-n-ronnie-le-drew.png"
-                            data-item-name="Line up 01 with date">
-                        Buy a ticket
-                    </button>
-
-
-                </article>
+                </a>
+                    <div class="ticket__booking-info">
+                        <span class="ticket__time font-sans font-bold">{{ event.data.time_of_event }}</span>
+                        <a class="ticket__cta btn-cta"  href="{{ event.data.ticketing }}">tickets</a>
+                        <span class="ticket__date font-sans font-bold">{{ event.data.date_of_event }}</span>
+                    </div>
+            </article>
 
             {% endfor %}
+
+
+{#            <article class="ticket__bg">#}
+{#                <div class="ticket__acts">#}
+{#                    <div class="ticket__act--tl">#}
+{#                        {% for act in event.data.lineup %}#}
+{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <h2 class="ticket__act-title">The lips</h2>#}
+{#                        <p class="ticket__act-summary">Copy about the lips</p>#}
+{#                    </div>#}
+{#                    <div class="ticket__act--tr">#}
+{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <h2 class="ticket__act-title">The lips</h2>#}
+{#                        <p class="ticket__act-summary">Copy about the lips</p>#}
+{#                    </div>#}
+{#                    <div class="ticket__act--br">#}
+{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <h2 class="ticket__act-title">The lips</h2>#}
+{#                        <p class="ticket__act-summary">Copy about the lips</p>#}
+{#                    </div>#}
+{#                    <div class="ticket__act--bl">#}
+{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <h2 class="ticket__act-title">The lips</h2>#}
+{#                        <p class="ticket__act-summary">Copy about the lips</p>#}
+{#                    </div>#}
+
+{#                </div>#}
+{#                <div class="ticket__booking-info">#}
+{#                    <span class="ticket__time font-sans font-bold">5pm</span>#}
+{#                    <button class="ticket__cta btn-cta">book tickets</button>#}
+{#                    <span class="ticket__date font-sans font-bold">Sat 15th Aug</span>#}
+{#                </div>#}
+{#            </article>#}
+
+
+
+{#            {% for post in collections.events %}#}
+{#                <article class="article-card mb-8 mx-4 flex-1 bg-white overflow-hidden rounded-lg shadow-lg">#}
+
+{#                    #}{# featured post image & category #}
+{#                    {% if post.data.featured_image %}#}
+
+{#                        <a class="featured-image-link block relative overflow-hidden fancy-border" href="{{ post.url }}">#}
+
+{#                            #}{# category link #}
+{#                            <ul class="absolute bottom-0 left-0 flex p-8 z-10">#}
+
+{#                                {% for item in post.data.tags %}#}
+
+{#                                    {%- if item != "event" -%}#}
+
+{#                                        <li class="mr-2">#}
+
+{#                                            <span class="inline-block bg-pink-500 px-4 py-2 text-white text-xs font-bold rounded">{{ item | capitalize }}</span>#}
+
+{#                                        </li>#}
+
+{#                                    {%- endif -%}#}
+
+{#                                {% endfor %}#}
+
+{#                            </ul>#}
+
+{#                            <figure>#}
+
+{#                                #}{# the 'data-lazy' attribute will lazy load your images in #}
+{#                                #}{# the js uses the new Intersection Observer API, see ../modules/lazyload #}
+{#                                #}{# it's not fully supported in some browsers, so proceed with caution! #}
+{#                                #}{# the srcset attribute would be a nice addtion here as well...in a future update maybe :) #}
+{#                                <img data-lazy="{{ post.data.featured_image }}" class="block" alt="{{ post.data.image_caption }}">#}
+
+{#                            </figure>#}
+
+{#                        </a>#}
+
+{#                    {% endif %}#}
+
+{#                    <div class="p-8">#}
+
+{#                        <h2 class="text-2xl mb-6"><a class="block text-purple-900 hover:text-pink-500" href="{{ post.url }}">{{ post.data.title }}</a></h2>#}
+
+{#                        <div class="text-sm text-gray-600 md:flex mb-4">#}
+
+{#                            <p class="author">By {{ site.author.name }}</p>#}
+
+{#                            <p class="hidden md:block px-2">—</p>#}
+
+{#                            <time datetime="{{ post.date }}">#}
+{#                                {{ post.date | dateDisplay }}#}
+{#                            </time>#}
+
+{#                        </div>#}
+
+{#                    </div>#}
+
+
+
+
+{#                </article>#}
+
+{#            {% endfor %}#}
 
         </div>
 

@@ -1,0 +1,20 @@
+---
+layout: default
+meta_title: FAQs
+meta_description: The Pop-up Palladium is a not for profit
+body_class: home
+title: FAQ's
+---
+
+<ul>
+
+    {% for faq in faqs.qna %}
+
+    <li>
+        <span>{{ faq.question }}</span>
+        <p>{{ faq.answer }}</p>
+    </li>
+
+    {% endfor %}
+
+</ul>

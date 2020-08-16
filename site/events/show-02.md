@@ -1,9 +1,35 @@
 ---
-title: Shadowgraphy, Madomoiselle Lychee, Patsy May and Julian Kemp
-date: 2019-10-30
-featured_image: /images/events/mademoiselle-leychee-aya-nakamura.png
-image_caption: Mademoiselle Leychee
-excerpt: This is the excerpt
+title: Show 01
+date: 2018-09-30
+featured_image: /images/events/01-zippy-n-ronnie-le-drew.png
+image_caption: Zippy & Ronnie Le Drew
+excerpt: Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright
+ticketing: www.crowdfunder.com
+time_of_event: 5pm
+date_of_event: Sat 03 aug
+lineup: [
+        {
+            title: "Zippy and Ronnie Le Drew",
+            image: "/images/events/01-zippy-n-ronnie-le-drew.png",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        },
+        {
+            title: "The Lips",
+            image: "/images/events/01-thelips.jpeg",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        },
+        {
+            title: "Sarah Wright",
+            image: "/images/events/01-sarah-wright.jpeg",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        },        
+        {
+            title: "Puppet Barge",
+            image: "/images/events/01-puppet-barge.jpeg",
+            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+        }
+ ]
+
 tags:
     - event
 ---

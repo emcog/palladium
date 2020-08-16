@@ -1,0 +1,15 @@
+//https://www.selbekk.io/blog/2019/06/how-to-overlay-your-background-images/
+.bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/images/graphics/curtain-drop.svg") center center;
+  background-size: auto 100vw;
+  background-attachment: fixed;
+}
+
+.bg-effect--blk-transparency {
+  /* Here's the same styles we applied to our content-div earlier */
+  //color: rgba(0, 0, 0, 60);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

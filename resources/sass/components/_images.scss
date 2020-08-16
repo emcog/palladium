@@ -23,3 +23,9 @@ header .organisation-logo { height: 90px; }
     @include respond-to('medium') { top: 110px; }
     @include respond-to('large') { top: 78px; }
 }
+
+.post img {
+    border-radius: 9999px;
+    width: 250px;
+    height: 250px;
+}

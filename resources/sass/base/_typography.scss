@@ -8,6 +8,8 @@ h1, h2, h3 {
 
 .page-title {
 	@apply text-5xl;
+	text-transform: uppercase;
+	color: white;
 }
 
 // content
@@ -18,12 +20,29 @@ h1, h2, h3 {
 		@apply mb-8;
 
         // intro paragraph
-		&:first-child {
-			@apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+		//&:first-child {
+			//@apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
 
-			@screen md {
-                @apply text-3xl;
-            }
-		}
+			//@screen md {
+            //    @apply text-3xl;
+            //}
+		//}
     }
+}
+
+
+.content p {
+	color: white;
+	line-height: 1.6;
+}
+
+.content h2 {
+	color: white;
+	font-family: $sans-serif-bold;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.header__line-up {
+
 }

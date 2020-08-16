@@ -5,8 +5,8 @@ featured_image: /images/events/01-zippy-n-ronnie-le-drew.png
 image_caption: Zippy & Ronnie Le Drew
 excerpt: Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright
 ticketing: www.crowdfunder.com
-    time_of_event: 6pm
-    date_of_event: Tue 09 aug
+time_of_event: 6pm
+date_of_event: Tue 09 aug
 lineup: [
         {
             title: "Zippy and Ronnie Le Drew",

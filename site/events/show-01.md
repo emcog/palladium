@@ -1,7 +1,7 @@
 ---
 title: Show 01
 date: 2020-08-17
-ticketing: \\https://www.crowdfunder.co.uk/puppetry-at-the-pop-up-palladium
+ticketing: \\www.crowdfunder.co.uk/puppetry-at-the-pop-up-palladium
 time_of_event: 8pm
 date_of_event: Fri 04 Sep
 lineup: [

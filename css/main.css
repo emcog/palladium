@@ -642,11 +642,12 @@ a:not([class]):hover {
 h1, h2, h3 {
   font-weight: 700;
   line-height: 1.25;
-  margin-top: 0;
   margin-bottom: 1.5rem;
-  --text-opacity: 1;
-  color: #21183c;
-  color: rgba(33, 24, 60, var(--text-opacity));
+}
+
+header h1 {
+  margin-bottom: 0px;
+  line-height: 1;
 }
 
 .page-title {
@@ -669,6 +670,13 @@ h1, h2, h3 {
   font-family: "Oswald", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
+}
+
+time {
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto;
+  font-size: 30px;
 }
 
 .bg-primary-color {
@@ -1194,6 +1202,16 @@ h1, h2, h3 {
   background-color: #AD0B1E;
 }
 
+.btn-cta:hover {
+  background-color: FFB01F;
+  color: AD0B1E;
+}
+
+.btn-cta--header {
+  margin: 30px auto 0 auto;
+  max-width: 400px;
+}
+
 .form .row {
   margin-bottom: 1.5rem;
 }
@@ -1334,6 +1352,12 @@ header .organisation-logo {
   height: 250px;
 }
 
+.250px {
+  border-radius: 9999px;
+  width: 250px;
+  height: 250px;
+}
+
 .fancy-border {
   border: 20px solid;
   -o-border-image: url("/images/graphics/step-and-repeat__curtain.svg");
@@ -1444,13 +1468,15 @@ header .organisation-logo {
 .content {
   border-radius: 18px;
   max-width: 800px;
+  margin: 60px 0 0 0;
   padding: 50px 70px 0 50px;
   background-color: rgba(0, 0, 0, 0.55);
 }
 
 .content img {
-  box-shadow: inset 0px 0px 20px 10px #000000;
-  margin: 80px 0 0 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 9999px;
 }
 
 .space-y-0 > :not(template) ~ :not(template){

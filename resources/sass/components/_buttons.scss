@@ -12,3 +12,13 @@
   text-transform: uppercase;
   background-color: $primary-color ;
 }
+
+.btn-cta:hover {
+  background-color: FFB01F;
+  color: AD0B1E;
+}
+
+.btn-cta--header {
+  margin: 30px auto 0 auto;
+  max-width: 400px;
+}

@@ -5,20 +5,19 @@ layout: default
 {# a post layout #}
 <main id="main" class="bg-image bg-effect--blk-transparency main flex flex-1 flex-col focus:outline-none" tabindex="-1">
 
-    <article id="container-centre" class="content column centre flex-1">
+    <article id="container-centre" class="content column centre flex-1 mb-20">
 
         <div class="mb-12 md:mb-20">
 
-            <header>
+            <header class="flex flex-col">
                 <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">{{ title }}</h1>
-                <time datetime="{{ date_of_event }}">
-                    {{ date_of_event }}
-                </time>
+                <time datetime="{{ date_of_event }}">{{ time_of_event }} {{ date_of_event }}</time>
                 <ul class="flex justify-between">
                     {% for act in lineup %}
                         <li class="inline"><h2 class="inline header__line-up">{{ act.title }}</h2></li>
                     {% endfor %}
                 </ul>
+                <a class="btn-cta btn-cta--header" href="{{ ticketing }}" target="_blank">Tickets</a>
             </header>
 
             <div class="text-sm md:text-base text-gray-600 flex justify-center">
@@ -75,36 +74,38 @@ layout: default
             {{ content | safe }}
 
             {# category links list #}
-            {% if tags %}
+{#            {% if tags %}#}
 
-                <ul class="flex pt-4">
+{#                <ul class="flex pt-4">#}
 
-                    {% for item in tags %}
+{#                    {% for item in tags %}#}
 
-                        {%- if item != "events" -%}
+{#                        {%- if item != "events" -%}#}
 
-                            <li class="mr-2">
-                                <a class="inline-block px-3 py-2 text-white bg-purple-900 text-xs font-semibold rounded hover:text-white hover:bg-pink-500" href="/category/{{ item }}">{{ item | capitalize }}</a>
-                            </li>
+{#                            <li class="mr-2">#}
+{#                                <a class="inline-block px-3 py-2 text-white bg-purple-900 text-xs font-semibold rounded hover:text-white hover:bg-pink-500" href="/category/{{ item }}">{{ item | capitalize }}</a>#}
+{#                            </li>#}
 
-                        {%- endif -%}
+{#                        {%- endif -%}#}
 
-                    {% endfor %}
+{#                    {% endfor %}#}
 
-                </ul>
+{#                </ul>#}
 
-            {% endif %}
+{#            {% endif %}#}
 
         </div>
+        <div class="mt-8 mb-16 md:px-16">
 
-        <div class="mt-16 md:px-16">
-
-            <div class="flex justify-between mt-16 pt-12">
-                {% if prevPost %}<p class="text-gray-700 text-sm"><span>Previous:</span> <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a></p>{% endif %}
-                {% if nextPost %}<p class="text-gray-700 text-sm"><span>Next:</span> <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></p>{% endif %}
+            <div class="flex justify-between mt-10">
+                <a class="btn-cta btn-cta--header" href="{{ ticketing }}" target="_blank">Tickets</a>
+{#                <ul class="inline">#}
+{#                    {% if prevPost %}<li class="inline"><p class="text-gray-700 text-sm"><span>Previous:</span> <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a></p></li>{% endif %}#}
+{#                    {% if nextPost %}<li class="inline"><p class="text-gray-700 text-sm"><span>Next:</span> <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></p></li>{% endif %}#}
+{#                </ul>#}
             </div>
         </div>
 
     </article>
 
-</main>
+{#</main>#}

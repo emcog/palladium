@@ -9,7 +9,7 @@ title: Upcoming events
 <main id="main" class="bg-image bg-effect--blk-transparency main flex flex-1 flex-col focus:outline-none" tabindex="-1">
     <section id="container-centre" class="column centre flex-1" aria-label="Blogs">
 
-        <h1 class="page-title text-3xl md:text-center md:text-5xl mb-16 lg:mb-24 lg:text-6xl">{{ title }}</h1>
+        <h1 class="page-title text-3xl md:text-center md:text-5xl pt-10 mb-6 lg:text-6xl">{{ title }}</h1>
 
 
         <div class="flex-col">
@@ -30,7 +30,7 @@ title: Upcoming events
                 </a>
                     <div class="ticket__booking-info">
                         <span class="ticket__time font-sans font-bold">{{ event.data.time_of_event }}</span>
-                        <a class="ticket__cta btn-cta"  href="{{ event.data.ticketing }}">tickets</a>
+                        <a class="ticket__cta btn-cta"  href="{{ event.data.ticketing }}" target="_blank">tickets</a>
                         <span class="ticket__date font-sans font-bold">{{ event.data.date_of_event }}</span>
                     </div>
             </article>
@@ -42,22 +42,22 @@ title: Upcoming events
 {#                <div class="ticket__acts">#}
 {#                    <div class="ticket__act--tl">#}
 {#                        {% for act in event.data.lineup %}#}
-{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <img class="ticket__act-image" src="/images/events/thelips.jpeg">#}
 {#                        <h2 class="ticket__act-title">The lips</h2>#}
 {#                        <p class="ticket__act-summary">Copy about the lips</p>#}
 {#                    </div>#}
 {#                    <div class="ticket__act--tr">#}
-{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <img class="ticket__act-image" src="/images/events/thelips.jpeg">#}
 {#                        <h2 class="ticket__act-title">The lips</h2>#}
 {#                        <p class="ticket__act-summary">Copy about the lips</p>#}
 {#                    </div>#}
 {#                    <div class="ticket__act--br">#}
-{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <img class="ticket__act-image" src="/images/events/thelips.jpeg">#}
 {#                        <h2 class="ticket__act-title">The lips</h2>#}
 {#                        <p class="ticket__act-summary">Copy about the lips</p>#}
 {#                    </div>#}
 {#                    <div class="ticket__act--bl">#}
-{#                        <img class="ticket__act-image" src="/images/events/01-thelips.jpeg">#}
+{#                        <img class="ticket__act-image" src="/images/events/thelips.jpeg">#}
 {#                        <h2 class="ticket__act-title">The lips</h2>#}
 {#                        <p class="ticket__act-summary">Copy about the lips</p>#}
 {#                    </div>#}
@@ -141,6 +141,4 @@ title: Upcoming events
         </div>
 
     </section>
-</main>
-
-
+{#</main>#}

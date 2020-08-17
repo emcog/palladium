@@ -3,8 +3,14 @@
 
 // headings
 h1, h2, h3 {
-    @apply font-bold leading-tight mt-0 mb-6 text-purple-900;
+    @apply font-bold leading-tight mb-6 ;
 }
+
+header h1 {
+	margin-bottom: 0px;
+	line-height: 1;
+}
+
 
 .page-title {
 	@apply text-5xl;
@@ -45,4 +51,11 @@ h1, h2, h3 {
 
 .header__line-up {
 
+}
+
+time {
+	text-transform: uppercase;
+  	color: white;
+	margin: 0 auto;
+	font-size: 30px;
 }

@@ -4,29 +4,29 @@ date: 2018-09-30
 featured_image: /images/events/01-zippy-n-ronnie-le-drew.png
 image_caption: Zippy & Ronnie Le Drew
 excerpt: Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright
-ticketing: www.crowdfunder.com
+ticketing: \\www.crowdfunder.com
 time_of_event: 5pm
 date_of_event: Sat 03 aug
 lineup: [
         {
-            title: "Zippy and Ronnie Le Drew",
-            image: "/images/events/01-zippy-n-ronnie-le-drew.png",
-            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+            title: "THE LIPS BY PUPPETS WITH GUTS ",
+            image: "/images/events/thelips.jpeg",
+            summary: The Lips are a chorus of delightfully deviant divas whose mouths have escaped from their bodies! Puppets with Guts are devisers of dazzling big puppet theatre that inspires and delights.
         },
         {
-            title: "The Lips",
+            title: "TOYBOX - KAMARI ROMEO",
             image: "/images/events/01-thelips.jpeg",
-            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+            summary: Toybox is an album of spoken word poems written by care leavers that highlight how childhood experiences and traumas may affect us, shaping the people we become.
         },
         {
-            title: "Sarah Wright",
+            title: "PATSY MAY – LAURA BACON",
             image: "/images/events/01-sarah-wright.jpeg",
-            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+            summary: Patsy May is an all round diva who reached the semi finals of Britain’s Got Talent. Laura Bacon is a gifted singer and puppeteer described as the Banksy of puppetry.
         },        
         {
-            title: "Puppet Barge",
+            title: "I MADEMOISELLE LYCHEE – AYA NAKAMURA",
             image: "/images/events/01-puppet-barge.jpeg",
-            summary: Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and ...
+            summary: Created by Aya Nakamura, a talented theatre maker, puppeteer and puppet maker Mademoiselle Lychee’s show will leave you feeling either horrified or laughing at the end.
         }
  ]
 
@@ -34,31 +34,38 @@ tags:
     - event
 ---
 
-## SHADOWOGRAPHY – DREW COLBY
+## THE LIPS BY PUPPETS WITH GUTS 
 
-Drew Colby has worked with puppets in the UK and Southern Africa for over 30 years.  His first professional work started at the Playhouse Puppet Company at Durban, South Africa.  Work spanned traditional double bridge, long string marionette shows, open stage tabletop puppetry, and performances with mixed styles of puppetry, acting, mask work, and dance.  
-He later returned to work in the UK at the Little Angel Theatre, notably alongside Steve Tiplady, which led him to start exploring ‘ instant puppetry’ where there are no purpose built puppets – only objects brought to life.  This in turn led him to shadow work where the theatre is created out of the absence of light, the puppeteers ability, and the audience’s imagination – ‘the ultimate instant puppetry’.
-Drew has travelled across the globe performing shadows in addition to creating shadow sequences for Danny Boyle, Nintendo, B&Q, Lodotra, Suso, the RSPB, BBC, Channel 4, V&A Museum, and The Royal Opera House.
+A dazzling & surreal big puppet outdoor sing along, The LIPS are a chorus of delightfully deviant divas whose mouths have escaped from their bodies! The LIPS reanimate our favourite songs, celebrate our shared love of popular music and uphold our freedom to speak out, through a pop-puppetry performance that is seductive yet subversive. The LIPS are highly expressive, they change colour at nighttime and are best performed after sunset as a musical finale show stopper for festivals or events.
 
-## MADEMOISELLE LYCHEE – AYA NAKAMURA
+Puppets with Guts is a daring big puppet theatre company. Puppets with Guts are devisers of dazzling big puppet theatre experiences that inspire and delight. We animate and inhabit outdoor and unusual spaces through spectacular creative adventures that surprise and captivate our audiences. We create spectacular shows for outdoor events and festivals and provide professional services in puppetry, creative consultation and design and making for theatre, corporate events, film and television.
 
-Probably the smallest burlesque dancer in the world.
-Watch as she embarks with the audience into a sensual and glamorous world of corset, feather, velvet and stain silk leaving you either horrified or laughing at the end of your unforgettable experience.
 
-Aya is a Japanese theatre-maker, puppeteer, and puppet maker who is based in London.  She has created many shows for the Rouge 28 Theatre, who’s primary interest lies in puppetry for adult audiences.
+## TOYBOX - KAMARI ROMEO
+
+A 22-minute visual spoken word album with music & puppetry, looking at experiences of British childhood. Produced and created by Kamari Romeo
+Written and performed by Kamari Romeo, Sirena Reynolds, Tobi, Tiahnna, Maya
+
+TOYBOX is about taking experiences, playing with them and putting them back together with a better understanding.
+This project, made in April 2018 over a period of 9 months endeavours to bring honest conversations into sharp focus via a series of short, filmed poems, performed to original music in collaboration with 5 care leavers aged between 20-27. These original workshighlight how childhood experiences and traumas may affect us, shaping the people we become.			
 
 
 ## PATSY MAY – LAURA BACON
-   
-Patsy May is a talented singer and all round diva who reached the semi-finals of Britain’s Got Talent.  Before her audition she was seen flirting with other male contestants claiming she was almost chosen to play Elizabeth in Pride and Prejudice.  She’s sassy, funny and brings a whole load of attitude into all her endeavours.
-   
-Patsy May is performed by Laura Bacon a gifted singer, writer, and puppeteer.  Previously described as the Banksy of puppetry, Laura performs several other characters of her own creation both on screen and in live shows.  In addition to writing her own characters she has previously worked on the 2018 Solo: A Star Wars Story, The Truffles, and The Dark Crystal: Age of Resistance.
 
+Patsy May is a talented singer and all round diva who reached the semi finals of Britain’s Got Talent. Before her audition she was seen flirting with other male contestants claiming she was almost chosen to play Elizabeth in Pride and Prejudice. She’s sassy, funny and brings a whole load of attitude into all her endeavours.
+
+Patsy May is performed by Laura Bacon a gifted singer, writer, and puppeteer.
+Previously described as the Banksy of puppetry, Laura performs several other characters of her own creation both on screen and in live shows. In addition to writing her own characters she has previously worked on the 2018 Solo: A Star Wars Story, The Truffles, and The Dark Crystal: Age of Resistance.
+
+
+## I MADEMOISELLE LYCHEE – AYA NAKAMURA
+
+Probably the smallest burlesque dancer in the world. Watch as she embarks with the audience into a sensual and glamorous world of corset, feather, velvet and satin silk leaving you either horrified or laughing at the end of your unforgettable experience.
+Aya is a Japanese theatre-maker, puppeteer, and puppet maker who is based in London. She has created many shows for the Rouge28 Theatre, who’s primary interest lies in puppetry for adult audiences.
 
 ## JULIAN KEMP
 
 Julian’s career began at the age of thirteen as a founder member of the Central Junior Television Workshop, which led to a number of acting roles in children's television series such as Murphy’s Mob, Dramarama, Your Mother Wouldn’t Like It and Palace Hill. He trained at RADA before becoming a director on the children's factual programme Wise Up for Channel 4. He directed three series, winning 2 BAFTAS, 2 International Emmys, an RTS, and a Peabody award.
-
-Julian is a seasoned pro at directing TV puppetry having directed The Fimbles, The Roly Mo Show, Roger and The Rotten Trolls, Diddy TV, The Diddy Movies, and the BBC/Sesame Workshop Production of The Furchester Hotel.  Julian will be talking to us about the trials and tribulations of Directing puppetry for TV and film he has encountered across of the course of his career.
-
+Julian is a seasoned pro at directing TV puppetry having directed The Fimbles, The Roly Mo Show, Roger and The Rotten Trolls, Diddy TV, The Diddy Movies, and the BBC/Sesame Workshop Production of The Furchester Hotel.
+Julian will be talking to us about the trials and tribulations of Directing puppetry for TV and film he has encountered across of the course of his career. 
 

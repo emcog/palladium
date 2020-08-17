@@ -1507,10 +1507,41 @@ header .organisation-logo {
   }
 }
 
+.bg-cover-all-on-mobile {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (min-width: 802px) {
+  .bg-cover-all-on-mobile {
+    z-index: -100;
+    height: 0;
+    width: 0;
+  }
+}
+
+@media (max-width: 799px) {
+  .bg-cover-all-on-mobile {
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #AD0B1E;
+    color: #FFB01F;
+  }
+}
+
+.bg-cover-all-on-mobile p {
+  text-align: center;
+}
+
 .content {
   border-radius: 18px;
   max-width: 800px;
-  margin: 350px 0 100px 0;
+  margin: 50px 0 100px 0;
   padding: 50px 70px 50px 50px;
   background-color: rgba(0, 0, 0, 0.55);
 }
@@ -1518,7 +1549,7 @@ header .organisation-logo {
 @media (max-width: 699px) {
   .content {
     padding: 0 8px 50px 8px;
-    margin: 250px 0 60px 0;
+    margin: 50px 0 60px 0;
   }
 }
 

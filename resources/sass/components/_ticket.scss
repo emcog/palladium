@@ -3,8 +3,8 @@
 .ticket__bg {
     box-sizing: border-box;
     position: relative;
-    width: 836px;
-    height: 434px;
+    max-width: 836px;
+    min-height: 434px;
     border-style: solid;
     border-width: 46px;
     border-image: url("/images/graphics/ticket.svg") 46 fill stretch;
@@ -17,7 +17,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 23px;
-  grid-row-gap: 18px;
+  grid-row-gap: 8px;
   margin: -46px -46px 0 -46px; // 01 hack to make all of top section of ticket a live button
   padding: 46px 46px 0 46px; // 02 hack to make all of top section of ticket a live button
 }

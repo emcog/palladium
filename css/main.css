@@ -1368,8 +1368,8 @@ header .organisation-logo {
 .ticket__bg {
   box-sizing: border-box;
   position: relative;
-  width: 836px;
-  height: 434px;
+  max-width: 836px;
+  min-height: 434px;
   border-style: solid;
   border-width: 46px;
   -o-border-image: url("/images/graphics/ticket.svg") 46 stretch;
@@ -1381,7 +1381,7 @@ header .organisation-logo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 23px;
-  grid-row-gap: 18px;
+  grid-row-gap: 8px;
   margin: -46px -46px 0 -46px;
   padding: 46px 46px 0 46px;
 }
@@ -1469,9 +1469,16 @@ header .organisation-logo {
 .content {
   border-radius: 18px;
   max-width: 800px;
-  margin: 60px 0 0 0;
-  padding: 50px 70px 0 50px;
+  margin: 350px 0 100px 0;
+  padding: 50px 70px 50px 50px;
   background-color: rgba(0, 0, 0, 0.55);
+}
+
+@media (max-width: 699px) {
+  .content {
+    padding: 0 8px 50px 8px;
+    margin: 250px 0 60px 0;
+  }
 }
 
 .content img {

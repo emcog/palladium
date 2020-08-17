@@ -16,6 +16,10 @@
   //position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  @include media('<700px'){
+    grid-template-columns: 1fr;
+    margin: -46px -46px 150px -46px;
+  }
   grid-column-gap: 23px;
   grid-row-gap: 8px;
   margin: -46px -46px 0 -46px; // 01 hack to make all of top section of ticket a live button
@@ -73,6 +77,10 @@
   bottom: -26px;
   display: grid;
   grid-template-columns: 0.7fr 1fr 0.7fr;
+  @include media('<700px') {
+    grid-template-columns: 1fr;
+    bottom: -16px;
+  }
   width: 100%;
 }
 
@@ -81,6 +89,10 @@
   text-transform: uppercase;
   grid-column: 1/2;
   margin: auto;
+  @include media('<700px') {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 }
 
 
@@ -88,10 +100,19 @@
   text-transform: uppercase;
   grid-column: -2/-1;
   margin: auto;
+  @include media('<700px') {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
 }
 
 
 .ticket__cta {
   grid-column: 2/3;
   margin: auto;
+  @include media('<700px') {
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+  }
 }

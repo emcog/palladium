@@ -1386,6 +1386,13 @@ header .organisation-logo {
   padding: 46px 46px 0 46px;
 }
 
+@media (max-width: 699px) {
+  .ticket__acts {
+    grid-template-columns: 1fr;
+    margin: -46px -46px 150px -46px;
+  }
+}
+
 .ticket__act-image {
   float: left;
   border-radius: 9999px;
@@ -1435,10 +1442,24 @@ header .organisation-logo {
   width: 100%;
 }
 
+@media (max-width: 699px) {
+  .ticket__booking-info {
+    grid-template-columns: 1fr;
+    bottom: -16px;
+  }
+}
+
 .ticket__time {
   text-transform: uppercase;
   grid-column: 1/2;
   margin: auto;
+}
+
+@media (max-width: 699px) {
+  .ticket__time {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 }
 
 .ticket__date {
@@ -1447,9 +1468,23 @@ header .organisation-logo {
   margin: auto;
 }
 
+@media (max-width: 699px) {
+  .ticket__date {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+
 .ticket__cta {
   grid-column: 2/3;
   margin: auto;
+}
+
+@media (max-width: 699px) {
+  .ticket__cta {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
 }
 
 .bg-image {

@@ -1,8 +1,6 @@
 ---
-title: Show 01
-date: 2018-09-30
-featured_image: /images/events/01-zippy-n-ronnie-le-drew.png
-image_caption: Zippy & Ronnie Le Drew
+title: Show 02
+date: 2020-08-16
 excerpt: Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright
 ticketing: 
 time_of_event: 8pm
@@ -16,12 +14,12 @@ lineup: [
         {
             title: "TOYBOX - KAMARI ROMEO",
             image: "/images/events/toybox.jpg",
-            summary: Toybox is an album of spoken word poems written exploring how childhood traumas shape the people we become..."
+            summary: "Toybox is an album of spoken word poems written exploring how childhood traumas shape the people we become..."
         },
         {
             title: "PATSY MAY – LAURA BACON",
             image: "/images/events/patsy-may-laura-bacon.jpg",
-            summary: All round diva and Britain's got talent semi finalist, Patsy May brought to you buy the Banksy of puppetry...
+            summary: "All round diva and Britain's got talent semi finalist, Patsy May brought to you buy the Banksy of puppetry..."
         },        
         {
             title: "I MADEMOISELLE LYCHEE – AYA NAKAMURA",

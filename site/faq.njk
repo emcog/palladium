@@ -6,15 +6,19 @@ body_class: home
 title: FAQ's
 ---
 
-<ul>
+<div class="bg-image bg-effect--blk-transparency text-white items-start">
+    <article class="content mb-20">
+    <ul class="">
 
-    {% for faq in faqs.qna %}
+        {% for faq in faqs.qna %}
 
-    <li>
-        <span>{{ faq.question }}</span>
-        <p>{{ faq.answer }}</p>
-    </li>
+        <li>
+            <span class="font-sans__bold uppercase">{{ faq.question }}</span>
+            <p>{{ faq.answer }}</p>
+        </li>
 
-    {% endfor %}
+        {% endfor %}
 
-</ul>
+        </ul>
+    </article>
+</div>

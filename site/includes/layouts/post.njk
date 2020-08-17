@@ -17,7 +17,7 @@ layout: default
                         <li class="inline"><h2 class="inline header__line-up">{{ act.title }}</h2></li>
                     {% endfor %}
                 </ul>
-                <a class="btn-cta btn-cta--header" href="{{ ticketing }}" target="_blank">Tickets</a>
+                {%  if ticketing %}<a class="btn-cta btn-cta--header" href="{{ ticketing }}" target="_blank">Tickets</a>{% endif %}
             </header>
 
             <div class="text-sm md:text-base text-gray-600 flex justify-center">
@@ -98,7 +98,7 @@ layout: default
         <div class="mt-8 mb-16 md:px-16">
 
             <div class="flex justify-between mt-10">
-                <a class="btn-cta btn-cta--header" href="{{ ticketing }}" target="_blank">Tickets</a>
+                {% if ticketing %}<a class="btn-cta btn-cta--header" href="{{ ticketing }}" target="_blank">Tickets</a>{% endif %}
 {#                <ul class="inline">#}
 {#                    {% if prevPost %}<li class="inline"><p class="text-gray-700 text-sm"><span>Previous:</span> <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a></p></li>{% endif %}#}
 {#                    {% if nextPost %}<li class="inline"><p class="text-gray-700 text-sm"><span>Next:</span> <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></p></li>{% endif %}#}

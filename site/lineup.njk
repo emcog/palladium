@@ -30,7 +30,7 @@ title: Upcoming events
                 </a>
                     <div class="ticket__booking-info">
                         <span class="ticket__time font-sans font-bold">{{ event.data.time_of_event }}</span>
-                        <a class="ticket__cta btn-cta"  href="{{ event.data.ticketing }}" target="_blank">tickets</a>
+                        {% if event.data.ticketing %}<a class="ticket__cta btn-cta"  href="{{ event.data.ticketing }}" target="_blank">tickets</a>{% else %}<span class="uppercase mx-auto font-sans__bold">Not yet available</span>{% endif %}
                         <span class="ticket__date font-sans font-bold">{{ event.data.date_of_event }}</span>
                     </div>
             </article>

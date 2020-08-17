@@ -1,16 +1,16 @@
 {
   "qna": [
     {
-      "question": "When do I get my tickets?",
-      "answer": "You will receive an email on the INSERT DAY HERE of the event, INSERT TIME HERE, containing a link to your seats."
+      "question": "How do I get my tickets?",
+      "answer": "By email. You MUST leave your email address on payment page."
     },
     {
-      "question": "Where do my tickets come from (email address)?",
-      "answer": "tickets(at)popuppalladium.com"
+      "question": "When do I get my tickets?",
+      "answer": "You will receive an email on the Saturday evening of the event, after 5pm, containing a link to the livestream or your ‘stage box seats’. Please ensure you leave your email when buying a ticket from our crowdfunder page."
     },
     {
       "question": "I haven't had my ticket!",
-      "answer": "Please please check your spam or promotions folder, look for emails from tickets(at)popuppalladium.com. If you’re sure you haven’t had it then send us an email, using the <a href = contact/>contact form</a> or tickets(at)popuppalladium.com "
+      "answer": "Please please check your spam or promotions folder. If you’re sure you haven’t had it then contact us on our contact page"
     },
     {
       "question": "Where can I watch the show after it's finished?",
@@ -18,19 +18,23 @@
     },
     {
       "question": "Is this family friendly?",
-      "answer": "Audience discretion is advised. This is a gig for adults in the main part, please expect strong language from the start."
+      "answer": "Audience discretion is advised. This is a gig for an older family audience as we’re pretty sure that 3 year olds get enough puppetry."
     },
     {
-      "question": "Can I share my livestream link?",
-      "answer": "Please feel free to share the livestream link but consider making another donation to The Trussell Trust."
-    },
-    {
-      "question": "Can I share my livestream link?",
-      "answer": "Please feel free to share the livestream link but consider making another donation to The Trussell Trust."
-    },
-    {
-      "question": "How do I access my 'front row' ticket?",
+      "question": "How do I access my ‘stage box’ ticket?",
       "answer": "You will receive an email on Saturday evening after 5pm containing a link to a live broadcast using the software Zoom.us. The software is free and available on any tablet, computer or smartphone. Please download in advance of 7pm Saturday so you are ready to go and ensure you have the latest version."
+    },
+    {
+      "question": "Can I share my ‘stage box seat’ link?",
+      "answer": "We only have limited capacity for the ‘stage box seat’ tickets so please don’t share your link with anyone else"
+    },
+    {
+      "question": "We only have limited capacity for the ‘stage box seat’ tickets so please don’t share your link with anyone else",
+      "answer": "Please feel free to share the livestream link but consider making another donation to The Trussell Trust."
+    },
+    {
+      "question": "My ‘stage box seat’ link is not working, what do I do?",
+      "answer": "Please keep trying the link and password provided. If you are still having issues then please contact us on our contact page."
     },
     {
       "question": "What is the difference between making a 'donation' on Crowdfunder and buying a 'Livestream link'?",

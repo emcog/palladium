@@ -1493,6 +1493,12 @@ header .organisation-logo {
   background-attachment: fixed;
 }
 
+@media (max-width: 699px) {
+  .bg-image {
+    margin: 950px 0 0 0;
+  }
+}
+
 .bg-effect--blk-transparency {
   /* Here's the same styles we applied to our content-div earlier */
   height: 100vh;

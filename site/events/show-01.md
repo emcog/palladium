@@ -1,33 +1,29 @@
 ---
 title: Show 01
 date: 2018-09-30
-ticketing: \\www.crowdfunder.com
-time_of_event: 6pm
-date_of_event: Tue 09 aug
+ticketing: \\https://www.crowdfunder.co.uk/puppetry-at-the-pop-up-palladium
+time_of_event: 8pm
+date_of_event: Fri 04 Sep
 lineup: [
         {
             title: "Shadowgraphy - Drew Colby",
-            image: "/images/events/shadowgraphy-drew-colby.jpeg",
-            summary: Drew Colby is a shadow puppeteer gifted with a fertile imagination to create beautiful imagery
-                     and tell stories with meticulously crafted technique.
+            image: "/images/events/shadowgraphy-drew-colby.jpg",
+            summary: "In Drew‘s hands the ancient art of Shadowgraphy is a source of comedy, beauty and wonder..." 
         },
         {
             title: "The Puppet Barge - Stan Middleton",
-            image: "/images/events/puppet-barge.jpeg",
-            summary: Stan Middleton has been performing marionettes since the age of 9 giving his performance an
-                     instinctive depth and precision that is beautiful to behold.
+            image: "/images/events/puppet-barge.jpg",
+            summary: "Performances with an instinctive depth and precision that is beautiful to behold..."
         },
         {
             title: "Zippy and Ronnie Le Drew",
             image: "/images/events/zippy-n-ronnie-le-drew.png",
-            summary: Zippy is one of the UK’s most iconic childhood characters while Ronnie Le Drew is recipient of
-                     the prestigious Harlequin Award, the Oscar of the puppetry world.
+            summary: "Ronnie and Zippy, multiple award winners and one the most iconic childhood characters..."
         },        
         {
             title: "Sarah Wright",
-            image: "/images/events/sarah-wright.jpeg",
-            summary: Sarah is a veteran Puppeteer, Director, and founder of the Curious School of Puppetry. She will
-                     be talking to us about her life growing up the the Little Angel Theatre and prolific career.
+            image: "/images/events/sarah-wright.jpg",
+            summary: "A veteran Puppeteer, Director, and Curious School Headmistress. Sarah will be talking about inspiration and her prolific career..."
         }
  ]
 
@@ -35,7 +31,7 @@ tags:
     - event
 ---
 
-![Shadowgraphy by Drew Colby](/images/events/shadowgraphy-drew-colby.jpeg)
+![Shadowgraphy by Drew Colby](/images/events/shadowgraphy-drew-colby.jpg)
 
 ## SHADOWOGRAPHY with Drew Colby
 
@@ -46,7 +42,7 @@ Drew has travelled across the globe performing shadows in addition to creating s
 
 
 
-![Zippy and Ronnie Le Drew](/images/events/puppet-barge.jpeg)
+![Zippy and Ronnie Le Drew](/images/events/puppet-barge.jpg)
 
 ## THE PUPPET BARGE – Stan Middleton 
 
@@ -67,7 +63,7 @@ Ronnie Le Drew is one of the UK’s most respected puppeteers, and recipient of 
 he UK’s most respected puppeteers, and recipient of the prestigious Harlequin Award, the Oscar of the puppetry world. He has operated many of the most iconic children’s puppets of the twentieth century – Sweep, Muffin the Mule, Bill and Ben, Brains from Thunderbirds – as well as working on classic puppet films such as Labyrinth, Little Shop of Horrors and The Muppet Christmas Carol. Muppet Treasure Island, and the new Netflix series Dark Crystal Age of Resistance. He continues to work regularly as a puppeteer in TV, theatre and advertising and also teaches at the Curious School Of Puppetry, London School of Puppetry, and at The Little Angel Theatre in London.
 
 
-![Sarah Wright](/images/events/sarah-wright.jpeg)
+![Sarah Wright](/images/events/sarah-wright.jpg)
 ## SARAH WRIGHT
 
 Sarah is a master Puppeteer and Puppet Director who served as an additional Muppet performer on 1996's Muppet Treasure Island and puppeteered Vogons and other aliens in the 2005 Creature Shop-effects film The Hitchhiker's Guide to the Galaxy.

@@ -4,29 +4,31 @@ date: 2018-09-30
 featured_image: /images/events/01-zippy-n-ronnie-le-drew.png
 image_caption: Zippy & Ronnie Le Drew
 excerpt: Puppets with Guts, The puppet barge, Zippy & Ronny Le Drew, Sarah Wright
-ticketing: \\www.crowdfunder.com
-time_of_event: 5pm
-date_of_event: Sat 03 aug
+ticketing: 
+time_of_event: 8pm
+date_of_event: fri 18 SEP
 lineup: [
         {
             title: "THE LIPS BY PUPPETS WITH GUTS ",
-            image: "/images/events/thelips.jpeg",
-            summary: The Lips are a chorus of delightfully deviant divas whose mouths have escaped from their bodies! Puppets with Guts are devisers of dazzling big puppet theatre that inspires and delights.
+            image: "/images/events/thelips.jpg",
+            summary: The Lips are a chorus of deviant divas whose mouths
+                     have escaped from their bodies!..
         },
         {
             title: "TOYBOX - KAMARI ROMEO",
-            image: "/images/events/01-thelips.jpeg",
-            summary: Toybox is an album of spoken word poems written by care leavers that highlight how childhood experiences and traumas may affect us, shaping the people we become.
+            image: "/images/events/toybox.jpg",
+            summary: Toybox is an album of spoken word poems written exploring how childhood
+                     traumas, shape the people we become...
         },
         {
             title: "PATSY MAY – LAURA BACON",
-            image: "/images/events/01-sarah-wright.jpeg",
-            summary: Patsy May is an all round diva who reached the semi finals of Britain’s Got Talent. Laura Bacon is a gifted singer and puppeteer described as the Banksy of puppetry.
+            image: "/images/events/patsy-may-laura-bacon.jpg",
+            summary: All round diva and Britain's got talent semi finalist, Patsy May brought to you buy the Banksy of puppetry...
         },        
         {
             title: "I MADEMOISELLE LYCHEE – AYA NAKAMURA",
-            image: "/images/events/01-puppet-barge.jpeg",
-            summary: Created by Aya Nakamura, a talented theatre maker, puppeteer and puppet maker Mademoiselle Lychee’s show will leave you feeling either horrified or laughing at the end.
+            image: "/images/events/01-puppet-barge.jpg",
+            summary: Mademoiselle Lychee will leave you feeling horrified or laughing...
         }
  ]
 

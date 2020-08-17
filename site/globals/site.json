@@ -3,31 +3,22 @@
     "url": "https://www.popuppaladium.com",
     "author": {
         "name": "Emily Morus-Jones",
-        "email": "hello@popuppaladium.com",
-        "handle": "@maxpower",
-        "avatar": "/images/blog/author.jpg"
+        "email": "hello@popuppaladium.com"
     },
     "images": {
         "logo": "/images/logo/logo.svg",
-        "favicon": "/images/favicon.ico",
-        "twitter": "/images/meta/twitter.jpg",
-        "og": "/images/meta/og.jpg"
+        "favicon": "/images/favicon.ico"
     },
     "social_links": {
-        "facebook": "https://www.facebook.com",
-        "twitter": "https://twitter.com/joe_dyer1",
-        "linkedin": "https://www.linkedin.com"
+        "facebook": "https://www.facebook.com/popuppalladium",
+        "twitter": "https://twitter.com/popuppalladium1",
+        "instagram": "https://www.instagram.com/popuppalladium/"
     },
     "address": {
-        "street": "123 Fake Street",
-        "street_2": "Fake Road",
-        "city": "London",
-        "postcode": "LN1 234",
-        "country": "GB"
+        "city": "Treborth",
+        "country": "Wales"
     },
     "contact": {
-        "phone": "123 456 789",
-        "mobile": "(+44) 1234 5678",
-        "email": "hello@maxpower.com"
+        "email": "hello@popuppalladium.com"
     }
 }

@@ -11,14 +11,12 @@ lineup: [
         {
             title: "THE LIPS BY PUPPETS WITH GUTS ",
             image: "/images/events/thelips.jpg",
-            summary: The Lips are a chorus of deviant divas whose mouths
-                     have escaped from their bodies!..
+            summary: "The Lips are a chorus of deviant divas whose mouths have escaped from their bodies!.."
         },
         {
             title: "TOYBOX - KAMARI ROMEO",
             image: "/images/events/toybox.jpg",
-            summary: Toybox is an album of spoken word poems written exploring how childhood
-                     traumas, shape the people we become...
+            summary: Toybox is an album of spoken word poems written exploring how childhood traumas shape the people we become..."
         },
         {
             title: "PATSY MAY – LAURA BACON",
@@ -27,8 +25,8 @@ lineup: [
         },        
         {
             title: "I MADEMOISELLE LYCHEE – AYA NAKAMURA",
-            image: "/images/events/01-puppet-barge.jpg",
-            summary: Mademoiselle Lychee will leave you feeling horrified or laughing...
+            image: "/images/events/mademoiselle-leychee-aya-nakamura.png",
+            summary: "Mademoiselle Lychee will leave you feeling horrified or laughing..."
         }
  ]
 

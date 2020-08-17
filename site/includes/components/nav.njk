@@ -6,16 +6,16 @@
 
         <li class="level-1 mb-4 md:mr-4 md:mb-0 uppercase">
 
-            <a href="{{ item.url | safe }}" class="link font-bold text-white hover:text-pink-500 active:text-pink-500 {% if page.url == item.url %}active text-pink-500{% endif %}
+            <a href="{{ item.url | safe }}" class="link font-bold text-white hover:text-yellow-500 active:text-yellow-500 {% if page.url == item.url %}active text-yellow-500{% endif %}
             "{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
 
         </li>
 
         {% endfor %}
 
-        <li>
-            <a class="btn-cta inline-block md:ml-2 hover:bg-white hover:text-pink-500" href="/lineup" rel="noopener">line up</a>
-        </li>
+{#        <li>#}
+{#            <a class="btn-cta inline-block md:ml-2 hover:bg-white hover:text-pink-500" href="/lineup" rel="noopener">line up</a>#}
+{#        </li>#}
 
     </ul>
 

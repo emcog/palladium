@@ -1221,15 +1221,15 @@ time {
   display: block;
   margin-bottom: 0.25rem;
   --text-opacity: 1;
-  color: #2d3748;
-  color: rgba(45, 55, 72, var(--text-opacity));
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 .form .row label:after {
   font-size: 0.875rem;
   --text-opacity: 1;
-  color: #718096;
-  color: rgba(113, 128, 150, var(--text-opacity));
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 .form .row.required label:after {
@@ -1257,8 +1257,8 @@ time {
 .form .input:focus,
 .form .textarea:focus {
   --border-opacity: 1;
-  border-color: #eb5286;
-  border-color: rgba(235, 82, 134, var(--border-opacity));
+  border-color: #AD0B1E;
+  border-color: rgba(173, 11, 30, var(--border-opacity));
   outline: 0;
 }
 

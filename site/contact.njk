@@ -6,7 +6,7 @@ body_class: contact
 title: Contact Us
 ---
 
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
+<main id="main" class=" bg-image bg-effect--blk-transparency text-white main inner flex flex-1 flex-colg focus:outline-none " tabindex="-1">
 
     <article id="container-centre" class="column centre flex-1">
 
@@ -16,7 +16,7 @@ title: Contact Us
 
         <div class="content">
 
-            <p>Contact us in the form bellow and we‘ll get back to you as soon as we can</p>
+            <span class="mb-10 text-white font-sans uppercase">Contact us in the form below and we‘ll get back to you as soon as we can</span>
 
              <form class="form" name="contact" method="POST" data-netlify="true">
 
@@ -25,29 +25,29 @@ title: Contact Us
 
 {#                #}{# if you add a class of 'required' to the row, you'll see the label will change to (required) #}
 {#                #}{# opinionated form UX - but it's nice and quick to see at glance what fields are required/optional #}
-                <div class="row required">
-                    <label for="name">Name</label>
-                    <input class="input" id="name" type="text" name="name" autocomplete="name" required>
+                <div class="row required uppercase ">
+                    <label for="name uppercase">Name</label>
+                    <input class="input text-black font-serif" id="name" type="text" name="name" autocomplete="name" required>
                 </div>
 
-                <div class="row required">
-                    <label for="email">Email</label>
-                    <input class="input" id="email" type="text" name="email" autocapitalize="off" autocomplete="email" required>
+                <div class="row required uppercase">
+                    <label for="email uppercase text-white">Email</label>
+                    <input class="input text-black font-serif" id="email" type="text" name="email" autocapitalize="off" autocomplete="email" required>
                 </div>
 
-                <div class="row">
-                    <label for="phone">Phone</label>
-                    <input class="input" id="phone" type="text" name="phone" autocomplete="tel" required>
+                <div class="row uppercase">
+                    <label for="phone uppercase text-white">Phone</label>
+                    <input class="input text-black font-serif" id="phone" type="text" name="phone" autocomplete="tel" required>
                 </div>
 
 {#                #}{# this field label will show as (optional) as the required class has been left off #}
                 <div class="row">
-                    <label for="message">Message</label>
-                    <textarea class="textarea" id="message" name="message"></textarea>
+                    <label for="message uppercase text-white">Message</label>
+                    <textarea class="textarea text-black font-serif" id="message" name="message"></textarea>
                 </div>
 {#             #}
-                <div class="row">
-                    <button class="inline-block text-white btn-cta hover:text-red-500 active:text-red-500 active:bg-red-500" type="submit">Send message!</button>
+                <div class="row uppercase text-white">
+                    <button class="inline-block btn-cta hover:text-red-500 active:text-red-500 active:bg-red-500 mb-10" type="submit">Send message!</button>
                 </div>
 
             </form>

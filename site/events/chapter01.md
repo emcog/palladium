@@ -1,9 +1,10 @@
 ---
-title: Show 01
+title: Chapter 01
 date: 2020-08-17
-ticketing: \\www.crowdfunder.co.uk/puppetry-at-the-pop-up-palladium
+tickets_available: yes
 time_of_event: 8pm
 date_of_event: Fri 04 Sep
+featured_image: /images/events/patsy-may-laura-bacon.jpg
 lineup: [
         {
             title: "Shadowgraphy - Drew Colby",

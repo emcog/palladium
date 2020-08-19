@@ -4,10 +4,13 @@ layout: default
 
 {# a post layout #}
 <main id="main" class="bg-image bg-effect--blk-transparency main flex flex-1 flex-col focus:outline-none" tabindex="-1">
+    {#    Inlude snipcart #}
+    {% include 'components/snipcart/snipcart-cart.njk' %}
 
     <article id="container-centre" class="content flex flex-col items-start column centre flex-1 mb-20">
 
         <div class="mb-12 md:mb-20">
+
 
             <header class="flex flex-col">
                 <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">{{ title }}</h1>
@@ -17,11 +20,23 @@ layout: default
                         <li class="inline"><h2 class="inline header__line-up">{{ act.title }}</h2></li>
                     {% endfor %}
                 </ul>
-                {%  if ticketing %}<a class="btn-cta btn-cta--header" href="{{ ticketing }}" target="_blank">Tickets</a>{% endif %}
+                {%  if tickets_available %}
+                    <button class="snipcart-add-item btn-cta"
+                            data-item-id="{{ title }}"
+                            data-item-price="10.00"
+{#                            data-item-custom1-name="Ticket type"#}
+{#                            data-item-custom1-options="Stagebox seat|Live stream [-8.00]"#}
+                            data-item-url="{{ page.url }}"
+                            data-item-description="{% for act in lineup %} {{ act.title }}, {% endfor %}"
+                            data-item-image="{{ featured_image }}"
+                            data-item-name="{{ title }} | {{date_of_event}} at {{time_of_event}}">
+                        Add tickets to cart
+                    </button>
+                {% endif %}
             </header>
 
             <div class="text-sm md:text-base text-gray-600 flex justify-center">
-
+</div>
 
 
 
@@ -108,4 +123,7 @@ layout: default
 
     </article>
 
-{#</main>#}
+
+
+
+</main>
